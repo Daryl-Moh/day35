@@ -8,6 +8,7 @@ export const NEWS_CATEGORIES = [
 ]
 
 //export const NEWS_API = "https://newsapi.org/v2/top-headlines"
-export const NEWS_API = "http://localhost:8080/api/news"
+export const NEWS_API = "/api/news"
+//export const NEWS_API = "localhost:8080/api/news"
 //export const NEWS_API = "https://deft-collar-production.up.railway.app/api/news"
 //export const NEWS_API = "https://day35-production.up.railway.app/api/news"
