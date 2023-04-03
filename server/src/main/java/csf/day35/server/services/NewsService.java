@@ -24,7 +24,7 @@ public class NewsService {
     
     public static final String NEWS_API = "https://newsapi.org/v2/top-headlines";
 
-    @Value("${NEWS_API_KEY}")
+    @Value("${news.key}")
     private String newsKey;
 
     public List<Article> getNews(String country, String category, int pageSize) {
